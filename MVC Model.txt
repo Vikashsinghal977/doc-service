@@ -1,0 +1,61 @@
+my_web_app/
+├── app/
+│   ├── controllers/
+│   │   ├── HomeController.js
+│   │   ├── UserController.js
+│   │   └── ...
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Post.js
+│   │   └── ...
+│   ├── views/
+│   │   ├── home/
+│   │   │   ├── index.ejs
+│   │   │   └── about.ejs
+│   │   ├── user/
+│   │   │   ├── profile.ejs
+│   │   │   └── login.ejs
+│   │   └── ...
+│   ├── middlewares/
+│   │   ├── auth.js
+│   │   └── ...
+│   ├── routes/
+│   │   ├── homeRoutes.js
+│   │   ├── userRoutes.js
+│   │   └── ...
+│   ├── services/
+│   │   ├── emailService.js
+│   │   └── ...
+│   ├── utils/
+│   │   ├── helpers.js
+│   │   └── ...
+│   └── app.js
+├── config/
+│   ├── config.js
+│   ├── development.js
+│   ├── production.js
+│   └── ...
+├── public/
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── ...
+│   ├── js/
+│   │   ├── scripts.js
+│   │   └── ...
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── ...
+│   └── ...
+├── tests/
+│   ├── controllers/
+│   │   ├── homeController.test.js
+│   │   ├── userController.test.js
+│   │   └── ...
+│   ├── models/
+│   │   ├── user.test.js
+│   │   └── ...
+│   └── ...
+├── .env
+├── .gitignore
+├── README.md
+└── server.js
